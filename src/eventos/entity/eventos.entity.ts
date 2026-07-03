@@ -16,7 +16,7 @@ export class Eventos {
   nombre!: string;
 
   @Column({ nullable: true })
-  descripcion?: string;
+  descripcionX?: string;
 
   @Column()
   editable!: boolean;
